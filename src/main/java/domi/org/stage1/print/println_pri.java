@@ -1,4 +1,4 @@
-package domi.org.print;
+package domi.org.stage1.print;
 
 public class println_pri {
 

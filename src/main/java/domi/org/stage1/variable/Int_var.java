@@ -1,4 +1,4 @@
-package domi.org.variable;
+package domi.org.stage1.variable;
 
 public class Int_var {
 
