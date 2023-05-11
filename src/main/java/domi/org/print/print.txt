@@ -1,0 +1,32 @@
+println은 자주 쓰이면서 단점이 있다.
+그것은 바로 출력형식을 지정할 수 없다는 것이다.
+
+실수의 자리수 조절불가. - 소수점 n자리까지 출력하라는 식으로 지정할 수 없다.
+ex:
+System.out.println(10/3);
+//결과 값: 3.333333333333333...
+
+10진수로만 출력된다. - 2진수, 8진수, 16진수 등 다른 진수로 출력할 수 없다.
+ex:
+System.out.println(0x1A); //16진수 1A를 출력하라.
+//결과 값: 26
+
+이런 단점을 보완하기 위해 등장한 것이 printf이다.
+printf는 print formated의 줄임말이다.
+즉, 형식을 갖춘 출력문이라는 뜻이다.
+
+ex:
+System.out.printf("%.2f", 10/3); //소수점 2자리까지 출력하라.
+//결과 값: 3.33
+
+System.out.printf("%d", 0x1A); //16진수 1A를 출력하라.
+//결과 값: 26
+
+System.out.printf("%x", 26); //10진수 26을 16진수로 출력하라.
+//결과 값: 1a
+
+추가적으로 print은 줄바꿈을 하지 않고 출력하고, println은 출력 후 줄바꿈을 한다.
+ex:
+System.out.print("Hello, ");
+System.out.println("world!");
+//결과 값: Hello, world!
