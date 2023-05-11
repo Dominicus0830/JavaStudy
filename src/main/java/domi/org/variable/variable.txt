@@ -1,0 +1,18 @@
+8bit= 1byte
+
+float=32bit=4byte
+double=64bit=8byte
+char=16bit=2byte
+long=64bit=8byte
+short=16bit=2byte
+int=32bit=4byte
+boolean=1bit=1byte
+
+int=넓은 범위의 정수를 저장할 때 사용
+boolean=참/거짓을 저장할 때 사용
+char=문자를 저장할 때 사용
+double=실수를 저장할 때 사용
+String=문자열을 저장할 때 사용
+short=정수를 저장할 때 사용
+long=정수를 저장할 때 사용
+float=실수를 저장할 때 사용
